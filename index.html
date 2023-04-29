@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Examination Management System</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+		<div class="header">
+			<h1>Online Examination Management System</h1>
+		</div>
+		<div class="login">
+			<h2>Login</h2>
+			<form action="#" method="post">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+				<input type="submit" value="Login">
+			</form>
+		</div>
+    </div>
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login/Signup Form</title>
+    <link rel="stylesheet" href="LoginSignup.css">
+  </head>
+  <body>
+    <div class="login-signup-container">
+      <h2 id="form-title">Examination portal Login</h2>
+      <form id="login-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <div id="confirm-password-container" style="display:none">
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+        <button type="submit" id="submit-button">Login</button>
+      </form>
+      <p>
+        <button id="forgot-password-button">Forgot Password?</button>
+      </p>
+      <p>
+        <button id="google-login-button">Login with Google</button>
+      </p>
+      <p>
+        Don't have an account? 
+        <button id="toggle-button">Signup</button>
+      </p>
+    </div>
+
+    <script>
+      const formTitle = document.querySelector('#form-title');
+      const loginForm = document.querySelector('#login-form');
+      const confirmPasswordContainer = document.querySelector('#confirm-password-container');
+      const toggleButton = document.querySelector('#toggle-button');
+      const submitButton = document.querySelector('#submit-button');
+      const forgotPasswordButton = document.querySelector('#forgot-password-button');
+      const googleLoginButton = document.querySelector('#google-login-button');
+
+      let isLogin = true;
+      toggleButton.addEventListener('click', () => {
+        isLogin = !isLogin;
+        formTitle.textContent = isLogin ? 'Examination portal Login' : 'Examination portal Signup';
+        confirmPasswordContainer.style.display = isLogin ? 'none' : 'block';
+        submitButton.textContent = isLogin ? 'Login' : 'Signup';
+      });
+
+      loginForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const email = document.querySelector('#email').value;
+        const password = document.querySelector('#password').value;
+        if (!isLogin) {
+          const confirmPassword = document.querySelector('#confirm-password').value;
+          if (password !== confirmPassword) {
+            alert("Passwords don't match.");
+            return;
+          }
+        }
+        // handle login or signup logic here based on current state
+        // then redirect to the dashboard route
+        window.location.href = "/dashboard";
+      });
+
+      forgotPasswordButton.addEventListener('click', () => {
+        // handle forgot password logic here
+      });
+
+      googleLoginButton.addEventListener('click', () => {
+        // handle login with Google logic here
+      });
+    </script>
+  </body>
+</html> -->
