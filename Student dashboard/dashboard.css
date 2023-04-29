@@ -1,0 +1,207 @@
+/* Global Styles */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    
+  }
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  #hero {
+    background-color: #f2f2f2;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/waves.png");
+  }
+  
+  .hero-text {
+    max-width: 600px;
+  }
+  
+  #featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .exam-card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exam-card img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .exam-card h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .exam-card p {
+    margin: 10px 0;
+  }
+  
+  .exam-card a {
+    display: inline-block;
+    background-color:  #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .exam-card a:hover {
+    background-color: #3e8e41;
+    text-decoration: underline;
+  }
+  
+  #newsletter {
+    background-color: #f2f2f2;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  #newsletter h2 {
+    margin-top: 0;
+  }
+  
+  #newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 300px;
+  }
+  
+  #newsletter button[type="submit"] {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #newsletter button[type="submit"]:hover {
+    background-color:#3e8e41;
+    text-decoration: wavy;
+  }
+  
+  footer {
+    background-color:#4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+.Math img
+{
+    width: 25%;
+}
+/* Navbar styles */
+.navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .fa-graduation-cap
+  {
+    margin-left: 2rem;
+  }
+  .fa-graduation-cap:hover
+  {
+    color:#3e8e41;
+  }
+
+  .navbar-toggler {
+    border: none;
+    color: #007bff;
+    font-size: 1.25rem;
+  }
+  
+  .navbar-toggler:focus, .navbar-toggler:hover {
+    color:#3e8e41;
+  }
+  
+  .navbar-nav {
+    margin-left: 60%;
+  }
+  
+  .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .nav-link {
+    color:#4CAF50;
+    font-size: 1.1rem;
+  }
+  
+
+
+.navbar img
+{
+  width: 2%;
+  border-radius: 100%;
+}
