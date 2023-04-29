@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Examination Portal Login</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <span><i id="grad-logo"class="fa-solid fa-graduation-cap"></i></span>
+        <h1>Examination Portal Login</h1>
+    </header>
+	
+	<form class="login_form" action="home.html" method = "get" name = "form" onsubmit = "return validated()">
+        
+		<label for="username">Username:</label>
+		<input autocomplete="off" type="text" id="username" name="username" placeholder="Enter your username">
+        
+        <div id="username_error">Please use valid username.</div>
+        <br>
+
+		<div id="auth">
+            <label for="password">Password:</label>
+		<input type="password" id="password" name="password" placeholder="Enter your password">
+        <span class="eye" onclick="hideAndSeek()">
+            <i id="hide1" class="fa fa-eye"></i>
+            <i id="hide2" class="fa fa-eye-slash"></i>
+        </span>
+        
+        
+        
+        <div id="pass_error">check password.</div>
+        <br>
+        <br>
+        </div>
+
+		<button type="submit">Login</button>
+        <br>
+        <br>
+        <a href="">forget pasword?</a>
+        <p>New registration <a href="">click here</a></p>
+	</form>
+
+    <script src="./app.js"></script>
+
+    <footer>
+        <div class="footer-content">
+          <p>Copyright &copy; <span id="year"></span>Example Company</p>
+          <nav>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+</body>
+</html>
